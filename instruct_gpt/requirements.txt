@@ -1,0 +1,12 @@
+# Python >= 3.10
+torch>=2.4            # CUDA wheels on Linux (gpu0), MPS support on Apple Silicon
+transformers>=4.56    # tested with 5.20
+datasets>=3.0
+numpy
+pandas
+matplotlib
+tqdm
+jupyterlab
+ipykernel             # to register this venv as a Jupyter kernel (see README)
+ipywidgets            # progress bars in Jupyter
+bertviz               # optional: interactive attention head view (Section 11.1)
